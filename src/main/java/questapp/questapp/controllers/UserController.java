@@ -3,11 +3,10 @@ package questapp.questapp.controllers;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import questapp.questapp.entities.User;
-import questapp.questapp.repositories.UserRepository;
 import questapp.questapp.services.UserService;
 
 import java.util.List;
-import java.util.Optional;
+
 
 @RestController
 @RequestMapping("/users")
